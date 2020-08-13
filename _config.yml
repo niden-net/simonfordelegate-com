@@ -1,0 +1,22 @@
+app:
+  title: 'Elliot Simon for Delegate'
+  name: 'Elliot Simon for Delegate'
+  author: 'niden.net'
+  description: 'Elliot Simon for Delegate'
+  keywords: 'Elliot Simon, Delegate, West Virginia'
+
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    disable: true
+
+exclude:
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - serve
+
+
+
