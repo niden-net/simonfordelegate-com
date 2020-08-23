@@ -3,9 +3,9 @@ layout: default
 ---
 ### Common Sense for West Virginia.
 
-A Constitutional Republican, running for the District 67 seat in the state House of Delegates.
+A Constitutional Republican, running in the 67th Delegate District.
 
-For more information about me, please visit the **[About Me](/about-me)** page.
+I am asking for your vote! **[About Me](/about-me)**.
 
 #### Election day is Tuesday November 3rd.
 
