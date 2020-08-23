@@ -1,57 +1,50 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description"
-          content="{{ site.app.description }}">
-    <meta name="author" content="{{ site.app.author }}">
-    <meta name="generator" content="Netlify - Jekyll">
+<!DOCTYPE HTML>
+<!--
+	Urban by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+{% include head.html %}
 
-    <title>{{ site.app.title }}</title>
+<body class="subpage">
 
-    <link rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
-          integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE="
-          crossorigin="anonymous" />
-    <link rel="stylesheet"
-          href="/assets/css/site.css" />
-</head>
+{% include header.html %}
+{% include nav.html %}
 
-<body>
-    <div class="container">
-        <h2 class="text-center">{{ site.app.title }}</h2>
-        <div class="text-center">
-            <img class="logo" src="/assets/images/elliot.jpg"
-                 title="{{ site.app.title }}"
-                 alt="{{ site.app.title }}" />
-        </div>
-        <div class="text-center">
-            A Constitutional Republican, running for the District 67
-            seat in the state House of Delegates.
-            <br>
-            <br>
-            <br>
-            <a href="https://secure.anedot.com/simon-for-delegate/donate">
-                <button class="btn btn-danger">
-                    Donate!
-                </button>
-            </a>
-        </div>
+    <!-- Main -->
+    <div id="main">
+        <!-- Section -->
+        <section class="wrapper">
+            <div class="inner">
+                <header class="align-center">
+                    <h1>Elliot Simon for Delegate</h1>
+                </header>
+                <div class="flex flex-2">
+                    <div class="col col1 first">
+                        <div class="image round fit">
+                            <a href="/about-me" class="link">
+                                <img src="assets/images/elliot.jpg" alt="Elliot Simon" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col col2">
+                        {{ content }}
+                        <p class="align-center">
+                            <a href="https://secure.anedot.com/simon-for-delegate/donate">
+                                <button class="btn btn-danger">
+                                    Donate!
+                                </button>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"
-            integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
-            crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/esm/popper.min.js"
-            integrity="sha256-T0gPN+ySsI9ixTd/1ciLl2gjdLJLfECKvkQjJn98lOs="
-            crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"
-            integrity="sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ="
-            crossorigin="anonymous"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.6.1/js/all.js"
-            integrity="sha384-R5JkiUweZpJjELPWqttAYmYM1P3SNEJRM6ecTQF05pFFtxmCO+Y1CiUhvuDzgSVZ"
-            crossorigin="anonymous"></script>
+{% include footer.html %}
+{% include footer-js.html %}
+
 </body>
 </html>
